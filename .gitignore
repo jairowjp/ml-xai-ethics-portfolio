@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data files (large datasets — download via script)
+data/raw/*.csv
+data/raw/*.data
+data/raw/*.gz
+
+# Generated figures (regenerate from notebooks)
+figures/*.png
+figures/*.pdf
+figures/*.svg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets & credentials
+.env
+*.key
+*.pem
+
+# Distribution
+*.egg
+MANIFEST
